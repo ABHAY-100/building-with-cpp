@@ -18,4 +18,5 @@ int main(){
         avg = sum/n;
     }
     cout<<"Average: "<<avg<<endl;
+    return 0;
 }

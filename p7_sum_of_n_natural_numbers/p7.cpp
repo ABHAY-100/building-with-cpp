@@ -12,4 +12,5 @@ int main(){
         sum += arr[i];
     }
     cout<<"Sum of "<<n<<" numbers = "<<sum<<endl;
+    return 0;
 }

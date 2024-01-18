@@ -15,4 +15,5 @@ int main(){
         sumNum += nNum[i];
     }
     cout<<"Sum: "<<sumNum<<"\n";
+    return 0;
 }
