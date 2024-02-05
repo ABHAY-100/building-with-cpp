@@ -1,3 +1,5 @@
+// C++ Program to check for a Palindrome
+
 #include <iostream>
 #include <string>
 using namespace std;
