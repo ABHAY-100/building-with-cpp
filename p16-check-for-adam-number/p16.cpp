@@ -1,3 +1,5 @@
+// Program to Check if a Number is an Adam Number.
+
 #include <iostream>
 #include <cmath>
 #include <algorithm>
