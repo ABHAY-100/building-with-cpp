@@ -1,6 +1,7 @@
 // Program to Check if a Character is a Vowel, Consonant or Digit
 
 #include <iostream>
+#include <cctype>
 using namespace std;
 int main(){
     char mainInput;
