@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <string>
 #include <algorithm>
 using namespace std;
 void mainFunc(int num){
