@@ -6,17 +6,17 @@ int main(){
     int n;
     cout<<"Enter the number of rows: ";
     cin>>n;
-    cout << endl;
+    cout<<endl;
     for(int i=0; i<n; i++){
         int num=1;
         for(int j=0; j<(n-i-1); j++){
-            cout<<"   ";   
+            cout<<"   ";
         }
         for(int k=0; k<=i; k++){
             cout<<"      "<<num;
-            num = num*(i-k)/(k+1);
+            num=num*(i-k)/(k+1);
         }
-        cout << endl;
+        cout<<endl;
     }
     return 0;
 }
