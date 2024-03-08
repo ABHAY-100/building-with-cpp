@@ -1,4 +1,4 @@
-// C++ Program to Print all the Armstrong Numbers
+// C++ Program to Check whether a number is a Armstrong Numbers
 
 #include <iostream>
 #include <cmath>
@@ -19,16 +19,14 @@ void mainFunction(int num){
         temp /= 10;
     }
     for(int i=0; i<len; i++){
-        sum += pow(arr[i], 3);
+        sum += pow(arr[i], len);
     }
-    if(num == sum){
-        cout<<num<<endl;
-    }
+    num == sum ? cout<<num<<" is a Armstrong Number"<<endl : cout<<num<<" is not a Armstrong Number"<<endl;
 }
 int main(){
-    cout<<"The Armstrong Numbers are: "<<endl;
-    for(int i=0; i<1000; i++){
-        mainFunction(i);
-    }
+    int num;
+    cout<<"Enter a Number: ";
+    cin>>num;
+    mainFunction(num);
     return 0;
 }
