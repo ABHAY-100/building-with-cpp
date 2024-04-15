@@ -2,16 +2,6 @@
 
 #include <iostream>
 using namespace std;
-void complement(int num){
-  int rem;
-  if(num<=1){
-    cout<<!num;
-    return;
-  }
-  rem = num%2;
-  complement(num/2);
-  cout<<!rem;
-}
 int main(){
   int num;
   cout<<"Enter a number: ";
@@ -24,4 +14,14 @@ int main(){
     complement(num);
   }
   return 0;
+}
+void complement(int num){
+  int rem;
+  if(num<=1){
+    cout<<!num;
+    return;
+  }
+  rem = num%2;
+  complement(num/2);
+  cout<<rem;
 }
